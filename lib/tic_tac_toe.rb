@@ -73,6 +73,7 @@ def current_player
 end
 
 def turn (user_input = gets.strip)
+"Put a number 1-9"
 @user_input = user_input
 @user_move = input_to_index(@user_input)
 if valid_move?(@user_move)
