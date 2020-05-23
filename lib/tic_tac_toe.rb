@@ -139,7 +139,7 @@ def winner
   end
 end
 
- def play 
+ def play
    until over?
      turn(@user_play = gets.strip)
    end
