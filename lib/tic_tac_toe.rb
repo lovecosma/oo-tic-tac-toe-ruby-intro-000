@@ -1,5 +1,6 @@
 class TicTacToe
 def initialize(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+  "Welcome to Tic Tac Toe"
   @board = board
 end
 @winner = ""
