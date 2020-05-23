@@ -80,6 +80,7 @@ if valid_move?(@user_move)
   move(@user_move, current_player)
   display_board
 else
+  puts "Invalid move"
   turn
 end
 end
